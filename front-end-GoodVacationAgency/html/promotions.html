@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS Files -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../imgs/favicon.ico" type="image/x-icon">
+
+  <title>Good Vacation - Agency</title>
+</head>
+
+<body>
+
+  <!-- - header - -->
+  <header>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="../index.html">
+          <img src="../imgs/logo.png" alt="Good Vacation">
+          <span class="me-2 fw-semibold">Good Vacation</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2" id="nav-utilities">
+              <div class="account-box rounded-bottom py-1">
+                <a href="account.html" class="nav-link d-flex align-items-center text-decoration-none pt-2 px-2">
+                  <img src="../imgs/user-default.png" id="userPefil" class="rounded-circle me-2" alt="Perfil do usuário">
+                  <span id="userName">Iniciar sessão</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="../html/destinations.html">Destinos</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Promoções e pacotes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="promotions.html">Planos para o inverno</a></li>
+                <li><a class="dropdown-item" href="promotions.html">Planos para o verão</a></li>
+                <li><a class="dropdown-item" href="promotions.html">Planos internacionais</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contacts.html">Contatos</a>
+            </li>
+          </ul>
+          
+          <div class="nav-help ms-3 ps-2">
+            <a class="nav-link fs-6" href="https://www.bibliaonline.com.br/" target="_blank">Ajuda
+              <button class="btn btn-outline-primary rounded-circle ms-3" type="submit">?</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- - main - -->
+  <main class="container">
+
+    <!-- #promotions-section -->
+    <section id="promotions-section">
+      <div class="section-title text-left px-3 my-5">
+        <p>Passagens áreas, <span class="fw-bold">nacionais</span> e <span class="fw-bold">internacionais</span></p>
+        <h2 class="fs-1">Promoções de voos com preços arrasadores!</h2>
+        <hr>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-center flex-nowrap card-box-promotions">
+        <div class="card card-promotions">
+          <img src="../imgs/gramado.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>Planos para curtir o inverno</span>
+            <h5 class="card-title fw-semibold">Gamado - São Francisco</h5>
+            <p class="card-text">Voo saindo des São Paulo</p>
+            <p class="card-text">Quartos duplos ou triplos com acomodações cinco estrelas.</p>
+            <div class="d-flex flex-wrap">
+              <span class="card-tag me-2 mb-1">Ida e volta</span>
+              <span class="card-tag me-2 mb-1">Com hospedagem</span>
+            </div>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="card-bottom">
+                <div class="card-bottom-left pe-1">
+                  <p>De:</p>
+                  <p>R$<span><del>2720,00</del></span></p>
+                </div>
+                <div class="card-bottom-right">
+                  <p>Por apenas:</p>
+                  <p>R$<span>1989,90</span></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card card-promotions card-central">
+          <img src="../imgs/las-vegas.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>Planos para sair do país</span>
+            <h5 class="card-title fw-semibold">Las Vegas</h5>
+            <p class="card-text">Voo saindo de São Paulo</p>
+            <p class="card-text">Quartos duplos ou triplos com acomodações cinco estrelas.</p>
+            <div class="d-flex flex-wrap">
+              <span class="card-tag me-2 mb-1">Ida e volta</span>
+              <span class="card-tag me-2 mb-1">Com hospedagem</span>
+            </div>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="card-bottom">
+                <div class="card-bottom-left pe-1">
+                  <p>De:</p>
+                  <p>R$<span><del>5326,00</del></span></p>
+                </div>
+                <div class="card-bottom-right">
+                  <p>Por apenas:</p>
+                  <p>R$<span>4730,00</span></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="card card-promotions">
+          <img src="../imgs/porto-seguro.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <span>Planos para curtir o verão</span>
+            <h5 class="card-title fw-semibold">Porto Seguro - Ilhéus</h5>
+            <p class="card-text">Voo saindo de São Paulo</p>
+            <p class="card-text">Quartos duplos ou triplos com acomodações cinco estrelas.</p>
+            <div class="d-flex flex-wrap">
+              <span class="card-tag me-2 mb-1">Ida e volta</span>
+              <span class="card-tag me-2 mb-1">Com hospedagem</span>
+              <span class="card-tag me-2 mb-1">Voucher</span>
+            </div>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <div class="card-bottom">
+                <div class="card-bottom-left pe-1">
+                  <p>De:</p>
+                  <p>R$<span><del>2850,00</del></span></p>
+                </div>
+                <div class="card-bottom-right">
+                  <p>Por apenas:</p>
+                  <p>R$<span>2319,90</span></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section> <!-- End #promotions-section -->
+
+  </main>
+
+  <!-- bottom-bar-section -->
+  <section id="bottom-bar-section">
+  </section>
+
+  <!-- - footer - -->
+  <footer class="container-fluid" id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col12" id="footer-top">
+          <div class="row justifi-content-between">
+            <div class="col-6">
+              <h3 class="fs-5">Good Vacation Agency</h3>
+            </div>
+            <div class="col-6 text-end" id="social-networks">
+              <a href="https://www.instagram.com/"><i class="bi bi-instagram me-3 fs-4"></i></a>
+              <a href="https://www.facebook.com/"><i class="bi bi-facebook me-3 fs-4"></i></a>
+              <a href="https://www.linkedin.com/"><i class="bi bi-linkedin me-3 fs-4"></i></a>
+              <a href="https://twitter.com/"><i class="bi bi-twitter me-3 fs-4"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12" id="footer-bottom">
+          <div class="row justify-content-between">
+            <div class="col-12 col-md-3">
+              <p class="fw-light">Recode Pro 2023</p>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <p class="fw-light text-end me-3 autor">Desenvolvido por: Rodrigo Alberto &copy; 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS scripts -->
+  <script src="../js/activePage.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
